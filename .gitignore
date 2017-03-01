@@ -11,3 +11,6 @@ application/logs/*
 user_guide/*
 application/config/config.php
 application/config/database.php
+
+assets/img/*
+assets/media/*
