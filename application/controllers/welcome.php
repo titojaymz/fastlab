@@ -19,7 +19,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data = array(
+			'title' => 'FAST Laboratories'
+		);
+		$this->load->view('header',$data);
+		$this->load->view('content');
+		$this->load->view('footer');
 	}
 }
 
