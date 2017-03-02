@@ -11,8 +11,8 @@
 
 		<!-- basic styles -->
 
-		<link href="<?php echo base_url() ?>assets_admin/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="<?php echo base_url() ?>assets_admin/css/font-awesome.min.css" />
+		<link href="<?php echo base_url() ?>/assets_admin/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="<?php echo base_url() ?>/assets_admin/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
 		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
@@ -26,9 +26,9 @@
 
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="<?php echo base_url() ?>assets_admin/css/ace.min.css" />
-		<link rel="stylesheet" href="<?php echo base_url() ?>assets_admin/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="<?php echo base_url() ?>assets_admin/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="<?php echo base_url() ?>/assets_admin/css/ace.min.css" />
+		<link rel="stylesheet" href="<?php echo base_url() ?>/assets_admin/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="<?php echo base_url() ?>/assets_admin/css/ace-skins.min.css" />
 
 		<!--[if lte IE 8]>
 		  <link rel="stylesheet" href="assets/css/ace-ie.min.css" />
@@ -38,13 +38,13 @@
 
 		<!-- ace settings handler -->
 
-		<script src="<?php echo base_url() ?>assets_admin/js/ace-extra.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="<?php echo base_url() ?>assets_admin/js/html5shiv.js"></script>
-		<script src="<?php echo base_url() ?>assets_admin/js/respond.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/html5shiv.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/respond.min.js"></script>
 		<![endif]-->
 	</head>
 
@@ -68,7 +68,7 @@
 					<ul class="nav ace-nav">
 						<li class="light-blue">
 							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
-								<img class="nav-user-photo" src="<?php echo base_url() ?>assets_admin/avatars/user.jpg" alt="Jason's Photo" />
+								<img class="nav-user-photo" src="<?php echo base_url() ?>/assets_admin/avatars/user.jpg" alt="Jason's Photo" />
 								<span class="user-info">
 									<small>Welcome,</small>
 									<?php echo $email ?>
@@ -456,32 +456,32 @@
 		<!--[if !IE]> -->
 
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='<?php echo base_url() ?>assets_admin/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='<?php echo base_url() ?>/assets_admin/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
 		</script>
 
 		<!-- <![endif]-->
 
 		<!--[if IE]>
 <script type="text/javascript">
- window.jQuery || document.write("<script src='<?php echo base_url() ?>assets_admin/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+ window.jQuery || document.write("<script src='<?php echo base_url() ?>/assets_admin/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
 </script>
 <![endif]-->
 
 		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='<?php echo base_url() ?>assets_admin/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+			if("ontouchend" in document) document.write("<script src='<?php echo base_url() ?>/assets_admin/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 		</script>
-		<script src="<?php echo base_url() ?>assets_admin/js/bootstrap.min.js"></script>
-		<script src="<?php echo base_url() ?>assets_admin/js/typeahead-bs2.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/bootstrap.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
 
-		<script src="<?php echo base_url() ?>assets_admin/js/jquery.dataTables.min.js"></script>
-		<script src="<?php echo base_url() ?>assets_admin/js/jquery.dataTables.bootstrap.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/jquery.dataTables.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/jquery.dataTables.bootstrap.js"></script>
 
 		<!-- ace scripts -->
 
-		<script src="<?php echo base_url() ?>assets_admin/js/ace-elements.min.js"></script>
-		<script src="<?php echo base_url() ?>assets_admin/js/ace.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/ace-elements.min.js"></script>
+		<script src="<?php echo base_url() ?>/assets_admin/js/ace.min.js"></script>
 
 		<!-- inline scripts related to this page -->
 
