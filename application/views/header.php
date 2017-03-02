@@ -43,9 +43,21 @@
         <a class="menu-close toggle-menu menu-right push-body"><i class="ion ion-android-close"></i></a>
         <h5 class="white">Sign In</h5>
         <div class="sign-in">
-            <input class="input-sm form-full" type="email" aria-required="true" id="email" name="email" placeholder="Email" value="" />
-            <input class="input-sm form-full" type="password" aria-required="true" id="password" name="password" placeholder="Password" value="" />
-            <input type="submit" class="btn btn-md btn-color-b form-full" value="Sign In" />
+            <?php if (validation_errors() <> '') { ?>
+                <div class="alert alert-danger">
+                    <strong><?php echo validation_errors() ?></strong>
+                </div>
+            <?php } ?>
+            <?php if ($error_login <> '') { ?>
+                <div class="alert alert-danger">
+                    <strong><?php echo $error_login ?></strong>
+                </div>
+            <?php } ?>
+            <form method="post">
+                <input class="input-sm form-full" type="text" required="true" aria-required="true" id="email" name="username" placeholder="Email" value="" />
+                <input class="input-sm form-full" type="password" required="true" aria-required="true" id="password" name="password" placeholder="Password" value="" />
+                <input type="submit" class="btn btn-md btn-color-b form-full" value="Sign In" />
+            </form>
             <a>New Customer?</a>
         </div>
         <ul>
@@ -79,7 +91,7 @@
                     <ul>
                         <!--Sidebar Menu Icon-->
                         <li class="">
-                            <a class="right-icon bar-icon toggle-menu menu-right push-body"><i class="fa fa-bars"></i></a>
+                            <a class="right-icon bar-icon toggle-menu menu-right push-body">Login</a>
                         </li>
                         <!-- End Sidebar Menu Icon-->
                     </ul>

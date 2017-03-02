@@ -1973,7 +1973,7 @@ header.sticky .navigation a.current-ele {
 /*-------------------------------------------------------------------------------------------*/
 /* Sidebar Menu */
 .side-menu {
-    background: #323232;
+    background: #87b87f; /*323232*/
     z-index: 2005;
     color: #fff;
     padding: 30px;
